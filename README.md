@@ -8,4 +8,6 @@ Configuration scripts for continuous integration
 3. run ```git clone https://github.com/PumpkinSpace/CI_Server.git```
 4. run ```chmod 777 CI_Server/init.sh```
 5. run ```./CI_Server/init.sh```
+6. accept the default values for Postfix
+
 
