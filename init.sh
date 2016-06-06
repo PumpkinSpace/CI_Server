@@ -26,6 +26,8 @@ sudo apt-get -y install postfix
 sudo apt-get -y install pylint
 # C/C++ static analysis
 sudo apt-get -y install cppcheck
+# Make
+sudo apt-get -y install make
 # Docker
 sudo apt-get purge lxc-docker
 sudo apt-get -y install linux-image-extra-$(uname -r)
