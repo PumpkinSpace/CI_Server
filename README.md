@@ -18,6 +18,7 @@ Configuration scripts for continuous integration
   - GitHub plugin
   - Embeddable Build Status Plugin
   - Mailer Plugin
+  - Email Extension Plugin
 5. Create admin user
 
 ## Jenkins Job Setup
