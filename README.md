@@ -10,4 +10,7 @@ Configuration scripts for continuous integration
 5. run ```./CI_Server/init.sh```
 6. accept the default values for Postfix
 
+## Jenkins Setup
+1. Point browser to http://your-ci-server-host.com:8080
+2. 
 
