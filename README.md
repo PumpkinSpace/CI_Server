@@ -10,7 +10,14 @@ Configuration scripts for continuous integration
 5. run ```./CI_Server/init.sh```
 6. accept the default values for Postfix
 
-## Jenkins Setup
+## Jenkins Initial Setup
 1. Point browser to http://your-ci-server-host.com:8080
-2. 
+2. Go through steps to unlock Jenkins
+3. Chose 'Select plugins to install'
+4. Unselect all plugins and then select the following plugins:
+  - GitHub plugin
+  - Embeddable Build Status Plugin
+  - Mailer Plugin
+5. Create admin user
 
+## Jenkins Job Setup
