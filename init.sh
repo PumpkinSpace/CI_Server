@@ -33,7 +33,9 @@ sudo apt-get purge lxc-docker
 sudo apt-get -y install linux-image-extra-$(uname -r)
 sudo apt-get -y install apparmor
 sudo apt-get -y install docker-engine
-sudo service docker start
 
 # Path variables
 export JENKINS_HOME=/var/lib/jenkins
+
+# Let jenkins use sudo
+sudo sh -c 'echo jenkins ALL=(ALL) NOPASSWD: ALL > /etc/sudoers'
