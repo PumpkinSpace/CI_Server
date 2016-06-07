@@ -1,0 +1,8 @@
+# Mac OSX
+.DS_Store
+
+# Project folder
+projects/
+
+# Vagrant
+.vagrant/
