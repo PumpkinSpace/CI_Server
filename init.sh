@@ -34,6 +34,12 @@ sudo apt-get -y install linux-image-extra-$(uname -r)
 sudo apt-get -y install apparmor
 sudo apt-get -y install docker-engine
 
+# Linux Build Deps
+sudo apt-get install -y patch make gcc wget git unzip kpartx lzop bc dosfstools xz-utils python g++ language-pack-en
+
+# PyLint
+sudo apt-get install -y pylint
+
 # Path variables
 export JENKINS_HOME=/var/lib/jenkins
 
