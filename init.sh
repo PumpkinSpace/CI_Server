@@ -39,6 +39,10 @@ sudo apt-get install -y patch make gcc wget git unzip kpartx lzop bc dosfstools 
 
 # PyLint
 sudo apt-get install -y pylint
+# Python nose
+sudo apt-get install -y python-nose
+# Python pip
+sudo apt-get install -y python-pip
 
 # Path variables
 export JENKINS_HOME=/var/lib/jenkins
