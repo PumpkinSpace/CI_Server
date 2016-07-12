@@ -44,6 +44,10 @@ sudo apt-get install -y python-nose
 # Python pip
 sudo apt-get install -y python-pip
 
+# node.js
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs npm
+
 # Path variables
 export JENKINS_HOME=/var/lib/jenkins
 
